@@ -29,7 +29,7 @@ Constraints:
 0 <= n <= 30
  */
 
-class Main {
+class fibonacciNumber {
     public int fib(int n) {
         if (n == 0) {
             return 0;
