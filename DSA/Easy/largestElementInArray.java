@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 class largestElementInArray {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt(); // Length of the array
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt(); // Length of the array
         int[] arr = new int[n]; // array of the length n
         for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt(); // fill the values in the array
+            arr[i] = scanner.nextInt(); // fill the values in the array
         }
         int min = Integer.MIN_VALUE; // taking a minimum value
         for (int i = 0; i < n; i++) {
