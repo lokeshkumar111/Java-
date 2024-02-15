@@ -39,9 +39,9 @@ public class findOccurance {
                 map.put(c, 1);
             }
         }
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() == 1) {
-                return (entry.getKey());
+        for (Map.Entry<Integer, Integer> e : map.entrySet()) {
+            if (e.getValue() == 1) {
+                return (e.getKey());
             }
         }
         return -1;
